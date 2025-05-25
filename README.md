@@ -1,5 +1,4 @@
 # Schema.org Datatypes for Java
-
 [Schema.org Datatypes](https://schema.org/) are vital for [NLWeb](https://www.iunera.com/kraken/machine-learning-ai/nlweb-enables-ai-powered-websites/) and AI projects. AI training is often most efficient when data is structured in [JSON-LD](https://json-ld.org/) according to Schema.org principles. Since much enterprise data resides in the [Java ecosystem](https://www.oracle.com/java/), we faced requirements in past [AI projects](https://iunera.com) to serialize Java objects into compliant Schema.org JSON-LD.
 
 We regularly faced challenges retrieving data from graph databases (using TinkerPop, Gremlin, Azure Graph, Spring Data, and more) and transforming it into JSON-LD for AI training. A collection of semantically clear Java classes proved invaluable for mapping and serialization.
@@ -280,7 +279,7 @@ System.out.println(jsonLd);
 
 Here is an example of usage and output:
 
-#### Person Example (from [Examples and JSON LD generation for Schema.org Classes](#examples-and-json-ld-generation-for-schemaorg-classes))
+#### Person Example generated
 
 **Output**:
 ```json
@@ -298,7 +297,7 @@ Here is an example of usage and output:
 }
 ```
 
-#### CreativeWork Example (from [Examples and JSON LD generation for Schema.org Classes](#examples-and-json-ld-generation-for-schemaorg-classes))
+#### CreativeWork Example generated
 **Output**:
 ```json
 {
@@ -314,7 +313,7 @@ Here is an example of usage and output:
 }
 ```
 
-#### SoftwareApplication Example (from [Mapping Enterprise Data to Schema.org Classes](#mapping-enterprise-data-to-schemaorg-classes))
+#### SoftwareApplication Example generated
 ```json
 {
   "@context": "http://schema.org",
@@ -388,7 +387,7 @@ Licensed under the OPEN COMPENSATION TOKEN LICENSE (the "License").
 You may not use this file except in compliance with the License.
 
 You may obtain a copy of the License at
-<https://github.com/open-compensation-token-license/license/blob/main/LICENSE.md>
+[https://github.com/open-compensation-token-license/license/blob/main/LICENSE.md](https://github.com/open-compensation-token-license/license/blob/main/LICENSE.md)
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -398,7 +397,7 @@ limitations under the License.
 
 @octl.sid: 1b6f7a5d-8dcf-44f1-b03a-77af04433496
 ```
-@octl.sid: <a href="x-octl-sid:1b6f7a5d-8dcf-44f1-b03a-77af04433496"></a>
+@octl.sid: [x-octl-sid:1b6f7a5d-8dcf-44f1-b03a-77af04433496](https://license-token.iunera.com/?X-octl-sid=1b6f7a5d-8dcf-44f1-b03a-77af04433496)
 
 * Why did we [choose the OCTL as alternative to the BSD 3-Clause License](https://www.license-token.com/wiki/unveiling-bsd-3-clause-license-summary)?
 * Why we [do NOT apply Apache 2.0 License](https://www.license-token.com/wiki/the-downside-of-apache-license-and-why-i-never-would-use-it)?
