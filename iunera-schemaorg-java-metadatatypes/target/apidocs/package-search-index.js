@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.iunera.jsonldjava.schemaorg.associations"},{"l":"com.iunera.jsonldjava.schemaorg.metadatatypes"}];updateSearchResults();
