@@ -1,1 +1,0 @@
-/snap/openjdk/2220/jdk/bin/javadoc -J-Duser.language= -J-Duser.country= @options @packages
