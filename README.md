@@ -280,20 +280,14 @@ The datatypes library provides Schema.org Java classes and utilities for enterpr
 
 ### 1. Add the Dependency
 
-In your project’s `pom.xml`, if published to Maven Central:
+In your project’s `pom.xml`:
 
 ```xml
 <dependency>
   <groupId>com.iunera.schemaorg</groupId>
-  <artifactId>schemaorg-java-datatypes</artifactId>
-  <version>1.0</version>
+   <artifactId>schemaorg-java-metadatatypes</artifactId>
+  <version>1.0.1</version>
 </dependency>
-```
-
-For a local JAR:
-
-```bash
-mvn install:install-file -Dfile=schemaorg-java-datatypes-1.0.jar -DgroupId=com.iunera.schemaorg -DartifactId=schemaorg-java-datatypes -Dversion=1.0 -Dpackaging=jar
 ```
 
 ### 2. Add JSON-LD Java (Optional)

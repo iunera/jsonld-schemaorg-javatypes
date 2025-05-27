@@ -11,7 +11,7 @@
 
     <name>Schema.org Datatypes for Java</name>
     <description>Parent project for Schema.org Datatypes for Java, including a generator and library for schema.org-based Java datatypes.</description>
-    <url>https://github.com/iunera/schemaorg-java-datatypes</url>
+    <url>https://github.com/iunera/jsonld-schemaorg-javatypes</url>
 
     <licenses>
         <license>
