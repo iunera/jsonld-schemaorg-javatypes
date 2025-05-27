@@ -99,6 +99,7 @@ package com.iunera.jsonldjava.schemaorg.metadatatypes;
 import com.iunera.jsonldjava.schemaorg.associations.JsonldProperty;
 import com.iunera.jsonldjava.schemaorg.associations.JsonldType;
 import com.iunera.jsonldjava.schemaorg.associations.Vertex;
+
 import java.net.URL;
 import java.util.List;
 
@@ -137,13 +138,12 @@ public class CreativeWorkExample {
         aiTrainingData.dateCreatedDate = List.of(new Date());
     }
 }
+```
 
 ## Mapping Enterprise Data to Schema.org Classes
 Use the `FieldMapper` utility to map fields from a source object (e.g., a DTO) to Schema.org classes (e.g., `Person`, `PostalAddress`) based on a field name mapping, then serialize to JSON-LD.
 
 **Note**: The `FieldMapper` class is available in `com.iunera.jsonldjava.schemaorg.utils` within the datatypes module.
-
-```
 
 ### Person Datatype Example
 
