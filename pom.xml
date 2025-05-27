@@ -6,7 +6,7 @@
 
     <groupId>com.iunera.schemaorg</groupId>
     <artifactId>schemaorg-java</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>Schema.org Datatypes for Java</name>
@@ -43,9 +43,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/iunera/schemaorg-java-datatypes.git</connection>
-        <developerConnection>scm:git:ssh://github.com/iunera/schemaorg-java-datatypes.git</developerConnection>
-        <url>https://github.com/iunera/schemaorg-java-datatypes</url>
+        <connection>scm:git:git://github.com/iunera/jsonld-schemaorg-javatypes.git</connection>
+        <developerConnection>scm:git:ssh://github.com/iunera/jsonld-schemaorg-javatypes.git</developerConnection>
+        <url>https://github.com/iunera/jsonld-schemaorg-javatypes</url>
     </scm>
 
     <properties>
