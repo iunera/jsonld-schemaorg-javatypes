@@ -286,7 +286,7 @@ In your project’s `pom.xml`:
 <dependency>
   <groupId>com.iunera.schemaorg</groupId>
    <artifactId>schemaorg-java-metadatatypes</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 

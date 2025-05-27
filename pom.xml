@@ -6,7 +6,7 @@
 
     <groupId>com.iunera.schemaorg</groupId>
     <artifactId>schemaorg-java</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>Schema.org Datatypes for Java</name>
