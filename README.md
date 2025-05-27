@@ -298,7 +298,7 @@ For JSON-LD serialization:
 <dependency>
   <groupId>com.github.jsonld-java</groupId>
   <artifactId>jsonld-java</artifactId>
-  <version>0.13.4</version>
+  <version>0.13.5</version>
 </dependency>
 ```
 
@@ -371,8 +371,8 @@ To generate custom Schema.org Java classes using the generator module:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iunera/schemaorg-java-datatypes.git
-   cd schemaorg-java/schemaorg-java-generator
+   git clone https://github.com/iunera/jsonld-schemaorg-javatypes.git
+   cd jsonld-schemaorg-javatypes/schemaorg-java-generator
    ```
 
 2. Download `schema.jsonld`:
@@ -380,8 +380,8 @@ To generate custom Schema.org Java classes using the generator module:
     - Place it in `schemaorg-java-generator/src/main/resources/`.
 
 3. Customize the Generator:
-    - Adjust the code of `com.iunera.schemaorg.generator.SimpleGenerator` and related classes (`RDFClassToJavaClassExtraktor`, `RDFProperty`) in
-      `src/main/java/com/iunera/schemaorg/generator/`. You can:
+    - Adjust the code of `com.iunera.jsonldjava.schemaorg.generator.SchemaClassGenerator` and related classes (`RDFClassToJavaClassExtraktor`, `RDFProperty`) in
+      `src/main/java/com/iunera/jsonldjava/schemaorg/generator/`. You can:
         - Add custom annotations to the generated classes.
         - Change the output directory (default: `src/main/java/com/iunera/jsonldjava/schemaorg/metadatatypes/`).
         - Modify the generation logic (e.g., field naming, class structure).
@@ -394,9 +394,9 @@ To generate custom Schema.org Java classes using the generator module:
    ```
 
 5. Run the Generator:
-    - Execute the `SimpleGenerator`:
+    - Execute the `SchemaClassGenerator`:
       ```bash
-      mvn exec:java -Dexec.mainClass="com.iunera.schemaorg.generator.SimpleGenerator"
+      mvn exec:java -Dexec.mainClass="com.iunera.jsonldjava.schemaorg.generator.SchemaClassGenerator"
       ```
     - Classes are output to the specified directory (default: `src/main/java/com/iunera/jsonldjava/schemaorg/metadatatypes/`).
 
