@@ -1,14 +1,14 @@
 # Schema.org Datatypes for Java
 
-[Schema.org Datatypes](https://schema.org/) are vital for [NLWeb](https://www.iunera.com/kraken/machine-learning-ai/nlweb-enables-ai-powered-websites/) and AI
-projects. AI training is often most efficient when data is structured in [JSON-LD](https://json-ld.org/) according to Schema.org principles. Since much
+[Schema.org Datatypes](https://schema.org/) are vital for [NLWeb](https://www.iunera.com/kraken/machine-learning-ai/nlweb-enables-ai-powered-websites/) and [AI
+projects. AI training is often most efficient when data is structured](https://www.iunera.com/kraken/machine-learning-ai/enterprise-data-java-spring-ai-nlweb/) in [JSON-LD](https://json-ld.org/) according to Schema.org principles. Since much
 enterprise data resides in the [Java ecosystem](https://www.oracle.com/java/), we faced requirements in past [AI projects](https://iunera.com) to serialize Java
 objects into compliant Schema.org JSON-LD.
 
 We regularly faced challenges retrieving data from graph databases (using TinkerPop, Gremlin, Azure Graph, Spring Data, and more) and transforming it into
 JSON-LD for AI training. A collection of semantically clear Java classes proved invaluable for mapping and serialization.
 
-The rise of NLWeb prompted us to share our proven Java Schema.org JSON-LD collection, previously used to enable semantic data storage in graph databases for
+[The rise of NLWeb prompted](https://www.iunera.com/kraken/nlweb/) us to share our proven Java Schema.org JSON-LD collection, previously used to enable semantic data storage in graph databases for
 enterprise applications. We believe an open web requires sharing knowledge to promote semantic data.
 
 Fundamentally, we share three things:
